@@ -1,0 +1,18 @@
+{
+  "run_id": "20261101T083205Z-870080",
+  "question": "云剪辑支持导出哪些格式？",
+  "merged_question": "云剪辑支持导出哪些格式？",
+  "status": "TOOL_ERROR",
+  "answer": "",
+  "citations": [],
+  "gaps": [
+    "检索工具 search_docs 连续两次调用均失败（故障注入），已按要求重试一次仍无法获取任何知识库片段，因此无法确认「云剪辑支持导出哪些格式」。未获得任何文档内容，不编造答案。"
+  ],
+  "conflicts": [],
+  "provider": "anthropic",
+  "model": "deepseek-v4-flash",
+  "retrieval_mode": "hybrid",
+  "steps": 3,
+  "tool_calls": 2,
+  "trace_file": "examples/traces_real/tool_failure.jsonl"
+}
