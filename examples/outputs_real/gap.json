@@ -1,0 +1,18 @@
+{
+  "run_id": "20261101T083144Z-f36d52",
+  "question": "公司食堂几点开饭？",
+  "merged_question": "公司食堂几点开饭？",
+  "status": "INSUFFICIENT_INFO",
+  "answer": "",
+  "citations": [],
+  "gaps": [
+    "知识库中未检索到任何与「公司食堂」相关的文档或片段。两次检索（「公司食堂开饭时间」与「食堂 用餐 就餐 时间 后勤 安排」）返回的命中内容全部为年假、报销时限等无关条款，第二组关键词检索结果为空。因此无法确认食堂开饭时间，知识库缺少食堂/餐饮后勤相关的制度文档。"
+  ],
+  "conflicts": [],
+  "provider": "anthropic",
+  "model": "deepseek-v4-flash",
+  "retrieval_mode": "keyword",
+  "steps": 3,
+  "tool_calls": 2,
+  "trace_file": "examples/traces_real/gap.jsonl"
+}
