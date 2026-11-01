@@ -126,6 +126,7 @@ failure:  search_docs(失败) → search_docs(重试失败) → report_incomplet
 5. 已上传至 GitHub：`https://github.com/shiwuing/-agent`；最终 commit SHA 见仓库最新提交。
 6. 未配置对话模型 Key 时程序会自动回退 Mock 并打印警告；评审无需 Key 即可运行，但结果只代表流程与护栏。
 7. 离线查询映射是近似的：完全没见过的新表达可能映射失败并回退 BM25；知识库变更后需用 `scripts/build_offline_embeddings.py` 重新生成缓存（需 Key）。
+8. API 模式需要评审自备对话 Key 与 Embedding Key；仓库不包含、也不会长期提供作者的 Key。只做验收请使用离线 Mock。
 
 ## 9. 复现命令
 
