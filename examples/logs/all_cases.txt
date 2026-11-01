@@ -1,0 +1,46 @@
+Q: 云剪辑支持导出哪些格式？
+  [answer] status=ANSWERED steps=3 tool_calls=2
+  A: 根据 D04《云剪辑产品 FAQ》D04-1：云剪辑支持导出 MP4、MOV 等常见视频格式。
+  citations: D04/D04-1
+  trace: examples/traces/answer.jsonl
+Q: 报销期限是多久？
+  [conflict] status=NEED_CONFIRMATION steps=5 tool_calls=4
+  A: 检测到“报销期限”存在资料冲突：D01=30 天、D02=15 天、D03=15 天（适用范围：差旅）。这些说明缺少与当前问题匹配的适用范围或优先级，请确认适用哪一份制度。
+  citations: D01/D01-2, D02/D02-1, D03/D03-2
+  gaps: 缺少与当前问题匹配的适用范围或优先级声明
+  conflicts: [{"field": "报销期限", "items": [{"doc_id": "D01", "title": "财务报销管理制度", "section_id": "D01-2", "heading": "报销时限", "quote": "员工应在费用发生之日起 30 天内提交报销申请。", "value": "30", "display": "30 天", "scope": null, "priority": null, "version_date": "2024-01-01"}, {"doc_id": "D02", "title": "费用报销常见问题", "section_id": "D02-1", "heading": "报销期限", "quote": "费用报销期限为 15 天，请及时提交。", "value": "15", "display": "15 天", "scope": null, "priority": null, "version_date": "2025-06-01"}, {"doc_id": "D03", "title": "差旅报销说明", "section_id": "D03-2", "heading": "报销时限", "quote": "差旅报销应在行程结束后 15 天内提交。", "value": "15", "display": "15 天", "scope": "差旅", "priority": null, "version_date": "2025-03-01"}], "values": ["15", "30"]}]
+  trace: examples/traces/conflict.jsonl
+Q: 那期限呢？
+  [followup] status=ANSWERED steps=5 tool_calls=4
+  A: 根据 D03《差旅报销说明》D03-2：差旅报销应在行程结束后 15 天内提交。
+  citations: D03/D03-2
+  trace: examples/traces/followup.jsonl
+Q: 公司食堂几点开饭？
+  [gap] status=INSUFFICIENT_INFO steps=4 tool_calls=3
+  A: （无回答）
+  gaps: 多次改写检索均未命中，知识库中无相关资料
+  trace: examples/traces/gap.jsonl
+Q: 费用报销最晚多久内提交？
+  [paraphrase] status=NEED_CONFIRMATION steps=5 tool_calls=4
+  A: 检测到“报销期限”存在资料冲突：D02=15 天、D01=30 天、D03=15 天（适用范围：差旅）。这些说明缺少与当前问题匹配的适用范围或优先级，请确认适用哪一份制度。
+  citations: D02/D02-1, D01/D01-2, D03/D03-2
+  gaps: 缺少与当前问题匹配的适用范围或优先级声明
+  conflicts: [{"field": "报销期限", "items": [{"doc_id": "D02", "title": "费用报销常见问题", "section_id": "D02-1", "heading": "报销期限", "quote": "费用报销期限为 15 天，请及时提交。", "value": "15", "display": "15 天", "scope": null, "priority": null, "version_date": "2025-06-01"}, {"doc_id": "D01", "title": "财务报销管理制度", "section_id": "D01-2", "heading": "报销时限", "quote": "员工应在费用发生之日起 30 天内提交报销申请。", "value": "30", "display": "30 天", "scope": null, "priority": null, "version_date": "2024-01-01"}, {"doc_id": "D03", "title": "差旅报销说明", "section_id": "D03-2", "heading": "报销时限", "quote": "差旅报销应在行程结束后 15 天内提交。", "value": "15", "display": "15 天", "scope": "差旅", "priority": null, "version_date": "2025-03-01"}], "values": ["15", "30"]}]
+  trace: examples/traces/paraphrase.jsonl
+Q: 云剪辑支持导出哪些格式？
+  [retry_success] status=ANSWERED steps=4 tool_calls=3
+  A: 根据 D04《云剪辑产品 FAQ》D04-1：云剪辑支持导出 MP4、MOV 等常见视频格式。
+  citations: D04/D04-1
+  trace: examples/traces/retry_success.jsonl
+Q: 报销期限是多久？
+  [step_limit] status=INCOMPLETE steps=1 tool_calls=1
+  A: （无回答）
+  gaps: 达到步数上限 1，任务未完成
+  trace: examples/traces/step_limit.jsonl
+Q: 云剪辑支持导出哪些格式？
+  [tool_failure] status=TOOL_ERROR steps=3 tool_calls=2
+  A: （无回答）
+  gaps: search_docs 连续失败：注入故障：search_docs 模拟失败
+  trace: examples/traces/tool_failure.jsonl
+
+Summary: 8/8 passed
