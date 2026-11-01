@@ -1,0 +1,9 @@
+{
+  "name": "tool_failure",
+  "question": "云剪辑支持导出哪些格式？",
+  "history": [],
+  "provider": "anthropic",
+  "fail_tool": "search_docs",
+  "fail_times": 999,
+  "expected_status": "TOOL_ERROR"
+}
