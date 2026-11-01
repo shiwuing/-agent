@@ -1,0 +1,18 @@
+{
+  "run_id": "20261101T090041Z-439536",
+  "question": "报销期限是多久？",
+  "merged_question": "报销期限是多久？",
+  "status": "INCOMPLETE",
+  "answer": "",
+  "citations": [],
+  "gaps": [
+    "达到步数上限 1，任务未完成"
+  ],
+  "conflicts": [],
+  "provider": "mock",
+  "model": "mock-policy",
+  "retrieval_mode": "hybrid",
+  "steps": 1,
+  "tool_calls": 1,
+  "trace_file": "examples/traces/step_limit.jsonl"
+}
