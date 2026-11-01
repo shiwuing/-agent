@@ -1,0 +1,71 @@
+retrieval=hybrid backend=faiss
+Anthropic: ANTHROPIC_API_KEY and ANTHROPIC_AUTH_TOKEN are both set. Using ANTHROPIC_API_KEY.
+[01/50] daily-01  INSUFFICIENT_INFO  OK | 番茄炒蛋怎么做？
+[02/50] daily-02  INSUFFICIENT_INFO  OK | 怎么煮米饭？
+[03/50] daily-03  INSUFFICIENT_INFO  OK | 猫为什么喜欢钻纸箱？
+[04/50] daily-04  INSUFFICIENT_INFO  OK | 如何快速入睡？
+[05/50] daily-05  INSUFFICIENT_INFO  OK | 怎么挑选西瓜？
+[06/50] daily-06  INSUFFICIENT_INFO  OK | 电饭煲怎么清洁？
+[07/50] daily-07  INSUFFICIENT_INFO  OK | 跑步前要热身多久？
+[08/50] daily-08  INSUFFICIENT_INFO  OK | 咖啡喝多了会怎样？
+[09/50] daily-09  INSUFFICIENT_INFO  OK | 洗衣机怎么除味？
+[10/50] daily-10  INSUFFICIENT_INFO  OK | 怎样养绿萝？
+[11/50] daily-11  INSUFFICIENT_INFO  OK | 冬天室内适合多少度？
+[12/50] daily-12  INSUFFICIENT_INFO  OK | 怎么去除衣服上的油渍？
+[13/50] daily-13  INSUFFICIENT_INFO  OK | 手机内存不够怎么办？
+[14/50] daily-14  INSUFFICIENT_INFO  OK | 高铁上能带充电宝吗？
+[15/50] daily-15  INSUFFICIENT_INFO  OK | 北京到上海的高铁要多久？
+[16/50] daily-16  INSUFFICIENT_INFO  OK | 感冒了应该吃什么药？
+[17/50] daily-17  INSUFFICIENT_INFO  OK | 人民币兑美元汇率是多少？
+[18/50] daily-18  INSUFFICIENT_INFO  OK | 最近有什么好看的电影？
+[19/50] daily-19  INSUFFICIENT_INFO  OK | 今天天气怎么样？
+[20/50] daily-20  INSUFFICIENT_INFO  OK | 明天是星期几？
+[21/50] kb-01     ANSWERED           OK section_cited=True retrieved=True | 云剪辑支持导出哪些格式？
+[22/50] kb-02     ANSWERED           OK section_cited=True retrieved=True | 云剪辑能自动生成字幕吗？
+[23/50] kb-03     ANSWERED           OK section_cited=True retrieved=True | 差旅报销需要哪些材料？
+[24/50] kb-04     ANSWERED           OK section_cited=True retrieved=True | 员工入职满一年有几天年假？
+[25/50] kb-05     ANSWERED           OK section_cited=True retrieved=True | 年假可以跨年结转吗？
+[26/50] kb-06     ANSWERED           OK section_cited=True retrieved=True | 财务审批一般要多久？
+[27/50] kb-07     ANSWERED           OK section_cited=True retrieved=True | 报销申请需要经过谁审批？
+[28/50] kb-08     ANSWERED           OK section_cited=True retrieved=True | 公司的报销制度适用于哪些费用？
+[29/50] kb-09     ANSWERED           OK section_cited=True retrieved=True | 差旅报销的提交时限是多久？
+[30/50] kb-10     ANSWERED           OK section_cited=True retrieved=True | 云剪辑的字幕可以手动编辑吗？
+[31/50] kb-11     ANSWERED           OK section_cited=True retrieved=True | 年假延期最多可以申请几次？
+[32/50] kb-12     ANSWERED           OK section_cited=True retrieved=True | 报销流程中财务部门负责什么？
+[33/50] kb-13     ANSWERED           OK section_cited=True retrieved=True | 差旅报销的起算时间是什么？
+[34/50] kb-14     ANSWERED           OK section_cited=True retrieved=True | 按 D01，费用发生日到提交申请最长多少天？
+[35/50] kb-15     ANSWERED           OK section_cited=True retrieved=True | 视频能导出成什么格式？
+[36/50] kb-16     ANSWERED           OK section_cited=True retrieved=True | 差旅费用的报销期限是多久？
+[37/50] kb-17     NEED_CONFIRMATION  OK | 报销期限是多久？
+[38/50] kb-18     NEED_CONFIRMATION  OK | 费用报销最晚多久内提交？
+[39/50] kb-19     INCOMPLETE         FAIL | 员工自己垫的钱最晚多久能拿回来？
+    -> 模型未返回工具调用：我会先在知识库中检索报销时限。
+[40/50] kb-20     NEED_CONFIRMATION  OK | 一般费用报销多少天内要提交？
+[41/50] kb-21     NEED_CONFIRMATION  OK | 报销时间有规定吗？
+[42/50] kb-22     ANSWERED           OK section_cited=True retrieved=True | 那期限呢？
+[43/50] kb-23     INSUFFICIENT_INFO  FAIL section_cited=False retrieved=True | 那字幕呢？
+    -> 承接上文的「导出格式」，用户问的「字幕呢？」应是问字幕能否导出/字幕有哪些导出格式。知识库中唯一涉及字幕的内容是 D04《云剪辑产品 FAQ》D04-2「字幕功能」：「云剪辑支持自动生成字幕，并支持手动编辑。」——只说明了字幕生成与编辑能力，未说明字幕（如字幕文件/字幕轨）能否随视频一起导出、支持哪些字幕格式。已对 D
+[44/50] kb-24     ANSWERED           OK section_cited=True retrieved=True | 那没休完怎么办？
+[45/50] kb-25     INSUFFICIENT_INFO  OK | 报销可以打到我老婆的卡上吗？
+[46/50] kb-26     INSUFFICIENT_INFO  OK | 食堂几点开饭？
+[47/50] kb-27     INSUFFICIENT_INFO  OK | 年终奖什么时候发？
+[48/50] kb-28     INSUFFICIENT_INFO  OK | 加班有加班费吗？
+[49/50] kb-29     INSUFFICIENT_INFO  OK | 云剪辑支持导出 4K 视频吗？
+[50/50] kb-30     INSUFFICIENT_INFO  OK | 报销发票丢了怎么办？
+
+== SUMMARY ==
+{
+  "total": 50,
+  "status_accuracy": 0.96,
+  "daily_total": 20,
+  "daily_grounded": 20,
+  "daily_grounded_rate": 1.0,
+  "daily_violations": [],
+  "kb_total": 30,
+  "kb_status_accuracy": 0.9333333333333333,
+  "section_cases": 19,
+  "section_cited_accuracy": 0.9473684210526315,
+  "section_retrieval_recall": 1.0
+}
+
+结果已写入 examples\agent_eval_results.json
