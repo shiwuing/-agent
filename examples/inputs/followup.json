@@ -1,0 +1,16 @@
+{
+  "name": "followup",
+  "question": "那期限呢？",
+  "history": [
+    {
+      "role": "user",
+      "content": "差旅报销需要哪些材料？"
+    },
+    {
+      "role": "assistant",
+      "content": "差旅报销需提交行程单、发票和审批单。"
+    }
+  ],
+  "provider": "anthropic",
+  "expected_status": "ANSWERED"
+}
