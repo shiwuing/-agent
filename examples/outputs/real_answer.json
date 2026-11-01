@@ -1,0 +1,22 @@
+{
+  "run_id": "20261101T064120Z-5b6e10",
+  "question": "云剪辑支持导出哪些格式？",
+  "merged_question": "云剪辑支持导出哪些格式？",
+  "status": "ANSWERED",
+  "answer": "根据知识库《云剪辑产品 FAQ》，云剪辑支持导出 MP4、MOV 等常见视频格式。\n\n需注意：该文档仅给出「MP4、MOV 等常见视频」的概括性说明，未列出完整的格式清单，也未说明音频导出格式、分辨率、编码参数等细节。如需精确的格式/参数支持列表，知识库中暂无对应资料，建议向产品团队确认。",
+  "citations": [
+    {
+      "doc_id": "D04",
+      "section_id": "D04-1",
+      "quote": "云剪辑支持导出 MP4、MOV 等常见视频格式。"
+    }
+  ],
+  "gaps": [],
+  "conflicts": [],
+  "provider": "anthropic",
+  "model": "deepseek-v4-flash",
+  "retrieval_mode": "keyword",
+  "steps": 4,
+  "tool_calls": 3,
+  "trace_file": "examples/traces/real_answer.jsonl"
+}
