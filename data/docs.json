@@ -1,0 +1,115 @@
+{
+  "docs": [
+    {
+      "doc_id": "D01",
+      "title": "财务报销管理制度",
+      "version_date": "2024-01-01",
+      "scope": null,
+      "priority": null,
+      "sections": [
+        {
+          "section_id": "D01-1",
+          "heading": "总则",
+          "content": "本制度适用于员工因公发生的费用报销。",
+          "questions": ["报销制度适用哪些员工", "哪些费用可以报销"]
+        },
+        {
+          "section_id": "D01-2",
+          "heading": "报销时限",
+          "content": "员工应在费用发生之日起 30 天内提交报销申请。",
+          "questions": ["报销期限是多久", "费用报销最晚什么时候提交", "报销有没有时间限制", "报销超过30天还能报吗"]
+        },
+        {
+          "section_id": "D01-3",
+          "heading": "报销流程",
+          "content": "报销申请经部门负责人审批后提交财务部门复核。",
+          "questions": ["报销流程是什么", "报销需要谁审批"]
+        }
+      ]
+    },
+    {
+      "doc_id": "D02",
+      "title": "费用报销常见问题",
+      "version_date": "2025-06-01",
+      "scope": null,
+      "priority": null,
+      "sections": [
+        {
+          "section_id": "D02-1",
+          "heading": "报销期限",
+          "content": "费用报销期限为 15 天，请及时提交。",
+          "questions": ["费用报销期限是多少天", "报销最晚多久提交", "报销时间限制是几天"]
+        },
+        {
+          "section_id": "D02-2",
+          "heading": "审批时间",
+          "content": "财务审批一般需要 5 个工作日。",
+          "questions": ["财务审批要多久", "报销审批需要几个工作日"]
+        }
+      ]
+    },
+    {
+      "doc_id": "D03",
+      "title": "差旅报销说明",
+      "version_date": "2025-03-01",
+      "scope": "差旅",
+      "priority": null,
+      "sections": [
+        {
+          "section_id": "D03-1",
+          "heading": "材料清单",
+          "content": "差旅报销需提交行程单、发票和审批单。",
+          "questions": ["差旅报销需要哪些材料", "出差报销要什么单据", "差旅报销需要发票吗"]
+        },
+        {
+          "section_id": "D03-2",
+          "heading": "报销时限",
+          "content": "差旅报销应在行程结束后 15 天内提交。",
+          "questions": ["差旅报销期限是多久", "出差报销多久内提交", "差旅报销最晚什么时候报"]
+        }
+      ]
+    },
+    {
+      "doc_id": "D04",
+      "title": "云剪辑产品 FAQ",
+      "version_date": "2025-02-01",
+      "scope": "产品",
+      "priority": null,
+      "sections": [
+        {
+          "section_id": "D04-1",
+          "heading": "导出格式",
+          "content": "云剪辑支持导出 MP4、MOV 等常见视频格式。",
+          "questions": ["云剪辑支持导出哪些格式", "视频能导出什么格式", "云剪辑可以导出mp4吗"]
+        },
+        {
+          "section_id": "D04-2",
+          "heading": "字幕功能",
+          "content": "云剪辑支持自动生成字幕，并支持手动编辑。",
+          "questions": ["云剪辑支持字幕吗", "字幕可以编辑吗", "云剪辑能自动生成字幕吗"]
+        }
+      ]
+    },
+    {
+      "doc_id": "D05",
+      "title": "员工手册（节选）",
+      "version_date": "2023-09-01",
+      "scope": null,
+      "priority": null,
+      "sections": [
+        {
+          "section_id": "D05-1",
+          "heading": "年假",
+          "content": "员工入职满一年后享有 5 天带薪年假。",
+          "questions": ["年假有几天", "带薪年假多少天", "入职多久有年假"]
+        },
+        {
+          "section_id": "D05-2",
+          "heading": "跨年规则",
+          "content": "年假原则上不跨年结转，确因工作需要可申请延期一次。",
+          "questions": ["年假可以跨年吗", "年假能结转到明年吗", "年假没用完怎么办"]
+        }
+      ]
+    }
+  ]
+}
