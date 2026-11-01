@@ -1,0 +1,7 @@
+{
+  "name": "gap",
+  "question": "公司食堂几点开饭？",
+  "history": [],
+  "provider": "anthropic",
+  "expected_status": "INSUFFICIENT_INFO"
+}
