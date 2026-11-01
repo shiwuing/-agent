@@ -13,6 +13,17 @@ python -m venv .venv
 .venv\Scripts\python -m src.main --interactive --mock
 ```
 
+## 两种运行模式
+
+| 模式 | 对话模型 | Embedding | 需要什么 |
+| --- | --- | --- | --- |
+| **离线 Mock（默认）** | `MockLLM` 确定性策略 | 仓库内 `data/offline_embeddings.json` + BM25 | **不需要任何 Key** |
+| **API 模式** | 真实 Claude 或兼容端点 | 在线 Embedding（火山方舟 / OpenAI / Voyage） | **评审自备** `ANTHROPIC_API_KEY` + `EMBEDDING_API_KEY` |
+
+> 仓库不包含、也不会长期提供作者的 API Key。评审如需 API 模式，请使用自己的账号和 Key；只做验收请直接使用离线 Mock。
+>
+> API 模式也可以只配对话 Key；Embedding 不配置时自动使用仓库内离线向量。
+
 ## 根目录
 
 | 路径 | 具体内容 |
@@ -139,7 +150,8 @@ https://github.com/shiwuing/-agent
 
 ## 提交边界
 
-- `.env` 不入库；仓库与上交包不含任何真实 Key。
+- `.env` 不入库；仓库与上交包不含任何真实 Key，也不长期提供作者的 Key。
+- API 模式需要评审自备对话 Key 与 Embedding Key；只做验收请用离线 Mock。
 - 无 Key 时自动回退 Mock + 离线向量。
 - 真实模型需要 `ANTHROPIC_API_KEY`（可选兼容端点）。
 - 离线查询映射是近似的；知识库变更后需重新生成离线向量。
