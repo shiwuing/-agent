@@ -1,0 +1,58 @@
+[
+  {
+    "name": "answer",
+    "expected_status": "ANSWERED",
+    "actual_status": "ANSWERED",
+    "passed": true,
+    "trace": "examples/traces_real/answer.jsonl"
+  },
+  {
+    "name": "conflict",
+    "expected_status": "NEED_CONFIRMATION",
+    "actual_status": "NEED_CONFIRMATION",
+    "passed": true,
+    "trace": "examples/traces_real/conflict.jsonl"
+  },
+  {
+    "name": "followup",
+    "expected_status": "ANSWERED",
+    "actual_status": "ANSWERED",
+    "passed": true,
+    "trace": "examples/traces_real/followup.jsonl"
+  },
+  {
+    "name": "gap",
+    "expected_status": "INSUFFICIENT_INFO",
+    "actual_status": "INSUFFICIENT_INFO",
+    "passed": true,
+    "trace": "examples/traces_real/gap.jsonl"
+  },
+  {
+    "name": "paraphrase",
+    "expected_status": "NEED_CONFIRMATION",
+    "actual_status": "NEED_CONFIRMATION",
+    "passed": true,
+    "trace": "examples/traces_real/paraphrase.jsonl"
+  },
+  {
+    "name": "retry_success",
+    "expected_status": "ANSWERED",
+    "actual_status": "ANSWERED",
+    "passed": true,
+    "trace": "examples/traces_real/retry_success.jsonl"
+  },
+  {
+    "name": "step_limit",
+    "expected_status": "INCOMPLETE",
+    "actual_status": "INCOMPLETE",
+    "passed": true,
+    "trace": "examples/traces_real/step_limit.jsonl"
+  },
+  {
+    "name": "tool_failure",
+    "expected_status": "TOOL_ERROR",
+    "actual_status": "TOOL_ERROR",
+    "passed": true,
+    "trace": "examples/traces_real/tool_failure.jsonl"
+  }
+]
