@@ -1,0 +1,58 @@
+[
+  {
+    "name": "answer",
+    "expected_status": "ANSWERED",
+    "actual_status": "ANSWERED",
+    "passed": true,
+    "trace": "examples/traces/answer.jsonl"
+  },
+  {
+    "name": "conflict",
+    "expected_status": "NEED_CONFIRMATION",
+    "actual_status": "NEED_CONFIRMATION",
+    "passed": true,
+    "trace": "examples/traces/conflict.jsonl"
+  },
+  {
+    "name": "followup",
+    "expected_status": "ANSWERED",
+    "actual_status": "ANSWERED",
+    "passed": true,
+    "trace": "examples/traces/followup.jsonl"
+  },
+  {
+    "name": "gap",
+    "expected_status": "INSUFFICIENT_INFO",
+    "actual_status": "INSUFFICIENT_INFO",
+    "passed": true,
+    "trace": "examples/traces/gap.jsonl"
+  },
+  {
+    "name": "paraphrase",
+    "expected_status": "NEED_CONFIRMATION",
+    "actual_status": "NEED_CONFIRMATION",
+    "passed": true,
+    "trace": "examples/traces/paraphrase.jsonl"
+  },
+  {
+    "name": "retry_success",
+    "expected_status": "ANSWERED",
+    "actual_status": "ANSWERED",
+    "passed": true,
+    "trace": "examples/traces/retry_success.jsonl"
+  },
+  {
+    "name": "step_limit",
+    "expected_status": "INCOMPLETE",
+    "actual_status": "INCOMPLETE",
+    "passed": true,
+    "trace": "examples/traces/step_limit.jsonl"
+  },
+  {
+    "name": "tool_failure",
+    "expected_status": "TOOL_ERROR",
+    "actual_status": "TOOL_ERROR",
+    "passed": true,
+    "trace": "examples/traces/tool_failure.jsonl"
+  }
+]
