@@ -1,0 +1,1768 @@
+{
+  "summary": {
+    "total": 50,
+    "status_accuracy": 1.0,
+    "daily_total": 20,
+    "daily_grounded": 20,
+    "daily_grounded_rate": 1.0,
+    "daily_violations": [],
+    "kb_total": 30,
+    "kb_status_accuracy": 1.0,
+    "section_cases": 19,
+    "section_cited_accuracy": 1.0,
+    "section_retrieval_recall": 1.0
+  },
+  "results": [
+    {
+      "id": "daily-01",
+      "category": "daily",
+      "question": "番茄炒蛋怎么做？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-01.jsonl"
+    },
+    {
+      "id": "daily-02",
+      "category": "daily",
+      "question": "怎么煮米饭？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-02.jsonl"
+    },
+    {
+      "id": "daily-03",
+      "category": "daily",
+      "question": "猫为什么喜欢钻纸箱？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-03.jsonl"
+    },
+    {
+      "id": "daily-04",
+      "category": "daily",
+      "question": "如何快速入睡？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-04.jsonl"
+    },
+    {
+      "id": "daily-05",
+      "category": "daily",
+      "question": "怎么挑选西瓜？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-05.jsonl"
+    },
+    {
+      "id": "daily-06",
+      "category": "daily",
+      "question": "电饭煲怎么清洁？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-06.jsonl"
+    },
+    {
+      "id": "daily-07",
+      "category": "daily",
+      "question": "跑步前要热身多久？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-07.jsonl"
+    },
+    {
+      "id": "daily-08",
+      "category": "daily",
+      "question": "咖啡喝多了会怎样？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-08.jsonl"
+    },
+    {
+      "id": "daily-09",
+      "category": "daily",
+      "question": "洗衣机怎么除味？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-09.jsonl"
+    },
+    {
+      "id": "daily-10",
+      "category": "daily",
+      "question": "怎样养绿萝？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-10.jsonl"
+    },
+    {
+      "id": "daily-11",
+      "category": "daily",
+      "question": "冬天室内适合多少度？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-11.jsonl"
+    },
+    {
+      "id": "daily-12",
+      "category": "daily",
+      "question": "怎么去除衣服上的油渍？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-12.jsonl"
+    },
+    {
+      "id": "daily-13",
+      "category": "daily",
+      "question": "手机内存不够怎么办？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-13.jsonl"
+    },
+    {
+      "id": "daily-14",
+      "category": "daily",
+      "question": "高铁上能带充电宝吗？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-14.jsonl"
+    },
+    {
+      "id": "daily-15",
+      "category": "daily",
+      "question": "北京到上海的高铁要多久？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-15.jsonl"
+    },
+    {
+      "id": "daily-16",
+      "category": "daily",
+      "question": "感冒了应该吃什么药？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-16.jsonl"
+    },
+    {
+      "id": "daily-17",
+      "category": "daily",
+      "question": "人民币兑美元汇率是多少？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-17.jsonl"
+    },
+    {
+      "id": "daily-18",
+      "category": "daily",
+      "question": "最近有什么好看的电影？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-18.jsonl"
+    },
+    {
+      "id": "daily-19",
+      "category": "daily",
+      "question": "今天天气怎么样？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-19.jsonl"
+    },
+    {
+      "id": "daily-20",
+      "category": "daily",
+      "question": "明天是星期几？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/daily-20.jsonl"
+    },
+    {
+      "id": "kb-01",
+      "category": "kb",
+      "question": "云剪辑支持导出哪些格式？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D04-1",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D04-1"
+      ],
+      "retrieved_sections": [
+        "D04-1",
+        "D04-2"
+      ],
+      "read_sections": [
+        "D04-1"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D04《云剪辑产品 FAQ》D04-1：云剪辑支持导出 MP4、MOV 等常见视频格式。",
+      "citations": [
+        {
+          "doc_id": "D04",
+          "section_id": "D04-1",
+          "quote": "云剪辑支持导出 MP4、MOV 等常见视频格式。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-01.jsonl"
+    },
+    {
+      "id": "kb-02",
+      "category": "kb",
+      "question": "云剪辑能自动生成字幕吗？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D04-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D04-2"
+      ],
+      "retrieved_sections": [
+        "D04-1",
+        "D04-2"
+      ],
+      "read_sections": [
+        "D04-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D04《云剪辑产品 FAQ》D04-2：云剪辑支持自动生成字幕，并支持手动编辑。",
+      "citations": [
+        {
+          "doc_id": "D04",
+          "section_id": "D04-2",
+          "quote": "云剪辑支持自动生成字幕，并支持手动编辑。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-02.jsonl"
+    },
+    {
+      "id": "kb-03",
+      "category": "kb",
+      "question": "差旅报销需要哪些材料？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D03-1",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D03-1"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2"
+      ],
+      "read_sections": [
+        "D03-1"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D03《差旅报销说明》D03-1：差旅报销需提交行程单、发票和审批单。",
+      "citations": [
+        {
+          "doc_id": "D03",
+          "section_id": "D03-1",
+          "quote": "差旅报销需提交行程单、发票和审批单。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-03.jsonl"
+    },
+    {
+      "id": "kb-04",
+      "category": "kb",
+      "question": "员工入职满一年有几天年假？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D05-1",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D05-1"
+      ],
+      "retrieved_sections": [
+        "D01-2",
+        "D02-1",
+        "D02-2",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [
+        "D05-1"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D05《员工手册（节选）》D05-1：员工入职满一年后享有 5 天带薪年假。",
+      "citations": [
+        {
+          "doc_id": "D05",
+          "section_id": "D05-1",
+          "quote": "员工入职满一年后享有 5 天带薪年假。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-04.jsonl"
+    },
+    {
+      "id": "kb-05",
+      "category": "kb",
+      "question": "年假可以跨年结转吗？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D05-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D05-2"
+      ],
+      "retrieved_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [
+        "D05-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D05《员工手册（节选）》D05-2：年假原则上不跨年结转，确因工作需要可申请延期一次。",
+      "citations": [
+        {
+          "doc_id": "D05",
+          "section_id": "D05-2",
+          "quote": "年假原则上不跨年结转，确因工作需要可申请延期一次。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-05.jsonl"
+    },
+    {
+      "id": "kb-06",
+      "category": "kb",
+      "question": "财务审批一般要多久？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D02-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D02-2"
+      ],
+      "retrieved_sections": [
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-2"
+      ],
+      "read_sections": [
+        "D02-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D02《费用报销常见问题》D02-2：财务审批一般需要 5 个工作日。",
+      "citations": [
+        {
+          "doc_id": "D02",
+          "section_id": "D02-2",
+          "quote": "财务审批一般需要 5 个工作日。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-06.jsonl"
+    },
+    {
+      "id": "kb-07",
+      "category": "kb",
+      "question": "报销申请需要经过谁审批？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D01-3",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D01-3"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-2"
+      ],
+      "read_sections": [
+        "D01-3"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D01《财务报销管理制度》D01-3：报销申请经部门负责人审批后提交财务部门复核。",
+      "citations": [
+        {
+          "doc_id": "D01",
+          "section_id": "D01-3",
+          "quote": "报销申请经部门负责人审批后提交财务部门复核。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-07.jsonl"
+    },
+    {
+      "id": "kb-08",
+      "category": "kb",
+      "question": "公司的报销制度适用于哪些费用？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D01-1",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D01-1"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-2"
+      ],
+      "read_sections": [
+        "D01-1"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D01《财务报销管理制度》D01-1：本制度适用于员工因公发生的费用报销。",
+      "citations": [
+        {
+          "doc_id": "D01",
+          "section_id": "D01-1",
+          "quote": "本制度适用于员工因公发生的费用报销。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-08.jsonl"
+    },
+    {
+      "id": "kb-09",
+      "category": "kb",
+      "question": "差旅报销的提交时限是多久？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D03-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D03《差旅报销说明》D03-2：差旅报销应在行程结束后 15 天内提交。",
+      "citations": [
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_offline/kb-09.jsonl"
+    },
+    {
+      "id": "kb-10",
+      "category": "kb",
+      "question": "云剪辑的字幕可以手动编辑吗？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D04-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D04-2"
+      ],
+      "retrieved_sections": [
+        "D04-1",
+        "D04-2"
+      ],
+      "read_sections": [
+        "D04-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D04《云剪辑产品 FAQ》D04-2：云剪辑支持自动生成字幕，并支持手动编辑。",
+      "citations": [
+        {
+          "doc_id": "D04",
+          "section_id": "D04-2",
+          "quote": "云剪辑支持自动生成字幕，并支持手动编辑。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-10.jsonl"
+    },
+    {
+      "id": "kb-11",
+      "category": "kb",
+      "question": "年假延期最多可以申请几次？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D05-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D05-2"
+      ],
+      "retrieved_sections": [
+        "D05-2"
+      ],
+      "read_sections": [
+        "D05-2"
+      ],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": null,
+      "answer": "根据 D05《员工手册（节选）》D05-2：年假原则上不跨年结转，确因工作需要可申请延期一次。",
+      "citations": [
+        {
+          "doc_id": "D05",
+          "section_id": "D05-2",
+          "quote": "年假原则上不跨年结转，确因工作需要可申请延期一次。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-11.jsonl"
+    },
+    {
+      "id": "kb-12",
+      "category": "kb",
+      "question": "报销流程中财务部门负责什么？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D01-3",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D01-3"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-3"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D01《财务报销管理制度》D01-3：报销申请经部门负责人审批后提交财务部门复核。",
+      "citations": [
+        {
+          "doc_id": "D01",
+          "section_id": "D01-3",
+          "quote": "报销申请经部门负责人审批后提交财务部门复核。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-12.jsonl"
+    },
+    {
+      "id": "kb-13",
+      "category": "kb",
+      "question": "差旅报销的起算时间是什么？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D03-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D03《差旅报销说明》D03-2：差旅报销应在行程结束后 15 天内提交。",
+      "citations": [
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_offline/kb-13.jsonl"
+    },
+    {
+      "id": "kb-14",
+      "category": "kb",
+      "question": "按 D01，费用发生日到提交申请最长多少天？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D01-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D01-2"
+      ],
+      "retrieved_sections": [
+        "D01-2",
+        "D02-1"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1"
+      ],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": null,
+      "answer": "根据 D01《财务报销管理制度》D01-2：员工应在费用发生之日起 30 天内提交报销申请。",
+      "citations": [
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        }
+      ],
+      "gaps": [],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/kb-14.jsonl"
+    },
+    {
+      "id": "kb-15",
+      "category": "kb",
+      "question": "视频能导出成什么格式？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D04-1",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D04-1"
+      ],
+      "retrieved_sections": [
+        "D04-1",
+        "D04-2"
+      ],
+      "read_sections": [
+        "D04-1"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D04《云剪辑产品 FAQ》D04-1：云剪辑支持导出 MP4、MOV 等常见视频格式。",
+      "citations": [
+        {
+          "doc_id": "D04",
+          "section_id": "D04-1",
+          "quote": "云剪辑支持导出 MP4、MOV 等常见视频格式。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-15.jsonl"
+    },
+    {
+      "id": "kb-16",
+      "category": "kb",
+      "question": "差旅费用的报销期限是多久？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D03-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D03《差旅报销说明》D03-2：差旅报销应在行程结束后 15 天内提交。",
+      "citations": [
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_offline/kb-16.jsonl"
+    },
+    {
+      "id": "kb-17",
+      "category": "kb",
+      "question": "报销期限是多久？",
+      "expected_status": "NEED_CONFIRMATION",
+      "actual_status": "NEED_CONFIRMATION",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "检测到“报销期限”存在资料冲突：D01=30 天、D02=15 天、D03=15 天（适用范围：差旅）。这些说明缺少与当前问题匹配的适用范围或优先级，请确认适用哪一份制度。",
+      "citations": [
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        },
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        },
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [
+        "缺少与当前问题匹配的适用范围或优先级声明"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_offline/kb-17.jsonl"
+    },
+    {
+      "id": "kb-18",
+      "category": "kb",
+      "question": "费用报销最晚多久内提交？",
+      "expected_status": "NEED_CONFIRMATION",
+      "actual_status": "NEED_CONFIRMATION",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [
+        "D02-1",
+        "D01-2",
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "检测到“报销期限”存在资料冲突：D02=15 天、D01=30 天、D03=15 天（适用范围：差旅）。这些说明缺少与当前问题匹配的适用范围或优先级，请确认适用哪一份制度。",
+      "citations": [
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        },
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        },
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [
+        "缺少与当前问题匹配的适用范围或优先级声明"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_offline/kb-18.jsonl"
+    },
+    {
+      "id": "kb-19",
+      "category": "kb",
+      "question": "员工自己垫的钱最晚多久能拿回来？",
+      "expected_status": "NEED_CONFIRMATION",
+      "actual_status": "NEED_CONFIRMATION",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [
+        "D02-1",
+        "D01-2",
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": null,
+      "answer": "检测到“报销期限”存在资料冲突：D02=15 天、D01=30 天、D03=15 天（适用范围：差旅）。这些说明缺少与当前问题匹配的适用范围或优先级，请确认适用哪一份制度。",
+      "citations": [
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        },
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        },
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [
+        "缺少与当前问题匹配的适用范围或优先级声明"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_offline/kb-19.jsonl"
+    },
+    {
+      "id": "kb-20",
+      "category": "kb",
+      "question": "一般费用报销多少天内要提交？",
+      "expected_status": "NEED_CONFIRMATION",
+      "actual_status": "NEED_CONFIRMATION",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [
+        "D02-1",
+        "D01-2",
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "检测到“报销期限”存在资料冲突：D02=15 天、D01=30 天、D03=15 天（适用范围：差旅）。这些说明缺少与当前问题匹配的适用范围或优先级，请确认适用哪一份制度。",
+      "citations": [
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        },
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        },
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [
+        "缺少与当前问题匹配的适用范围或优先级声明"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_offline/kb-20.jsonl"
+    },
+    {
+      "id": "kb-21",
+      "category": "kb",
+      "question": "报销时间有规定吗？",
+      "expected_status": "NEED_CONFIRMATION",
+      "actual_status": "NEED_CONFIRMATION",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [
+        "D02-1",
+        "D01-2",
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "检测到“报销期限”存在资料冲突：D02=15 天、D01=30 天、D03=15 天（适用范围：差旅）。这些说明缺少与当前问题匹配的适用范围或优先级，请确认适用哪一份制度。",
+      "citations": [
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        },
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        },
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [
+        "缺少与当前问题匹配的适用范围或优先级声明"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_offline/kb-21.jsonl"
+    },
+    {
+      "id": "kb-22",
+      "category": "kb",
+      "question": "那期限呢？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D03-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D03《差旅报销说明》D03-2：差旅报销应在行程结束后 15 天内提交。",
+      "citations": [
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_offline/kb-22.jsonl"
+    },
+    {
+      "id": "kb-23",
+      "category": "kb",
+      "question": "那字幕呢？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D04-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D04-2"
+      ],
+      "retrieved_sections": [
+        "D04-1",
+        "D04-2"
+      ],
+      "read_sections": [
+        "D04-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D04《云剪辑产品 FAQ》D04-2：云剪辑支持自动生成字幕，并支持手动编辑。",
+      "citations": [
+        {
+          "doc_id": "D04",
+          "section_id": "D04-2",
+          "quote": "云剪辑支持自动生成字幕，并支持手动编辑。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-23.jsonl"
+    },
+    {
+      "id": "kb-24",
+      "category": "kb",
+      "question": "那没休完怎么办？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D05-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D05-2"
+      ],
+      "retrieved_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [
+        "D05-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据 D05《员工手册（节选）》D05-2：年假原则上不跨年结转，确因工作需要可申请延期一次。",
+      "citations": [
+        {
+          "doc_id": "D05",
+          "section_id": "D05-2",
+          "quote": "年假原则上不跨年结转，确因工作需要可申请延期一次。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_offline/kb-24.jsonl"
+    },
+    {
+      "id": "kb-25",
+      "category": "kb",
+      "question": "报销可以打到我老婆的卡上吗？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/kb-25.jsonl"
+    },
+    {
+      "id": "kb-26",
+      "category": "kb",
+      "question": "食堂几点开饭？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/kb-26.jsonl"
+    },
+    {
+      "id": "kb-27",
+      "category": "kb",
+      "question": "年终奖什么时候发？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/kb-27.jsonl"
+    },
+    {
+      "id": "kb-28",
+      "category": "kb",
+      "question": "加班有加班费吗？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/kb-28.jsonl"
+    },
+    {
+      "id": "kb-29",
+      "category": "kb",
+      "question": "云剪辑支持导出 4K 视频吗？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D04-1",
+        "D04-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/kb-29.jsonl"
+    },
+    {
+      "id": "kb-30",
+      "category": "kb",
+      "question": "报销发票丢了怎么办？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword",
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "多次改写检索均未命中，知识库中无相关资料"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_offline/kb-30.jsonl"
+    }
+  ],
+  "elapsed_seconds": 0.1
+}
