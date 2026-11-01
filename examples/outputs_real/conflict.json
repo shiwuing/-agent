@@ -1,0 +1,60 @@
+{
+  "run_id": "20261101T083114Z-0e1f47",
+  "question": "报销期限是多久？",
+  "merged_question": "报销期限是多久？",
+  "status": "NEED_CONFIRMATION",
+  "answer": "关于「报销期限」，知识库中存在两处相互冲突且无法自动裁决的规定：\\n① 《财务报销管理制度》(D01-2「报销时限」)：员工应在费用发生之日起 30 天内提交报销申请。\\n② 《费用报销常见问题》(D02-1「报销期限」)：费用报销期限为 15 天，请及时提交。\\n两份文档均未声明限定性适用范围（D01 总则仅称「适用于员工因公发生的费用报销」，属于一般性表述，不构成范围裁决依据），知识库中也没有检索到优先级或版本取舍规则；仅凭版本日期更新不能判定优先级。\\n另可参考：《差旅报销说明》(D03-2) 规定「差旅报销应在行程结束后 15 天内提交」，但其适用范围限于「差旅」，若您问的不是差旅报销则不适用。\\n请确认：您的报销属于哪一类（差旅 / 一般费用报销），以及应以哪份文件的规定为准（30 天 还是 15 天）？",
+  "citations": [
+    {
+      "doc_id": "D01",
+      "section_id": "D01-2",
+      "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+    },
+    {
+      "doc_id": "D02",
+      "section_id": "D02-1",
+      "quote": "费用报销期限为 15 天，请及时提交。"
+    },
+    {
+      "doc_id": "D03",
+      "section_id": "D03-2",
+      "quote": "差旅报销应在行程结束后 15 天内提交。"
+    }
+  ],
+  "gaps": [],
+  "conflicts": [
+    {
+      "doc_id": "D01",
+      "section_id": "D01-2",
+      "heading": "报销时限",
+      "quote": "员工应在费用发生之日起 30 天内提交报销申请。",
+      "scope": null,
+      "priority": null,
+      "version_date": "2024-01-01"
+    },
+    {
+      "doc_id": "D02",
+      "section_id": "D02-1",
+      "heading": "报销期限",
+      "quote": "费用报销期限为 15 天，请及时提交。",
+      "scope": null,
+      "priority": null,
+      "version_date": "2025-06-01"
+    },
+    {
+      "doc_id": "D03",
+      "section_id": "D03-2",
+      "heading": "报销时限",
+      "quote": "差旅报销应在行程结束后 15 天内提交。",
+      "scope": "差旅",
+      "priority": null,
+      "version_date": "2025-03-01"
+    }
+  ],
+  "provider": "anthropic",
+  "model": "deepseek-v4-flash",
+  "retrieval_mode": "hybrid",
+  "steps": 6,
+  "tool_calls": 5,
+  "trace_file": "examples/traces_real/conflict.jsonl"
+}
