@@ -12,6 +12,17 @@
 
 ---
 
+## 两种运行模式
+
+| 模式 | 对话模型 | Embedding | 需要什么 | 适用 |
+| --- | --- | --- | --- | --- |
+| **离线 Mock（默认）** | `MockLLM` 确定性策略 | 仓库内 `data/offline_embeddings.json` + BM25 | **不需要任何 Key** | 评审验收、离线演示、流程与护栏验证 |
+| **API 模式** | 真实 Claude 或兼容端点 | 在线 Embedding（火山方舟 / OpenAI / Voyage） | **评审自备** `ANTHROPIC_API_KEY` + `EMBEDDING_API_KEY` | 真实模型与真实语义检索效果 |
+
+> 仓库**不包含、也不会长期提供作者的 API Key**。评审如需 API 模式，请使用自己的账号和 Key；只做验收请直接使用离线 Mock。
+>
+> API 模式也可以只配置对话 Key；Embedding 不配置时会自动使用仓库内离线向量。
+
 ## 快速开始
 
 评审无需任何 API Key：默认使用仓库内离线向量 + BM25。环境要求 Python 3.10+（本机实测 3.14.7）。
@@ -33,12 +44,13 @@ Q> 云剪辑支持导出哪些格式？
   citations: D04/D04-1
 ```
 
-真实模型模式只需在 `.env` 填入 `ANTHROPIC_API_KEY`（可选 `ANTHROPIC_BASE_URL` / `MODEL_ID`）；未配置时自动回退 Mock。
+API 模式需**使用你自己的 Key**：在 `.env` 填入 `ANTHROPIC_API_KEY`（可选 `ANTHROPIC_BASE_URL` / `MODEL_ID`）和 `EMBEDDING_API_KEY`；仓库不提供作者的 Key，未配置时自动回退 Mock + 离线向量。
 
 ---
 
 ## 目录
 
+- [两种运行模式](#两种运行模式)
 - [快速开始](#快速开始)
 - [提交说明（文件职责）](SUBMISSION.md)
 - [一、项目概述](#一项目概述)
@@ -443,7 +455,7 @@ class LLMClient(Protocol):
 - **真实模式**：官方 `anthropic` SDK，默认模型 `claude-opus-5-5`，`thinking={"type": "adaptive"}`，通过 tool-use 让模型选择动作；检查 `stop_reason`，异常按工具错误处理。
 - **Mock 模式**：`MockLLM` 基于 `state.observations` 的确定性策略模拟「观察 → 决策」，用于离线跑通全流程。
 - **Mock 边界（必须写入文档）**：Mock 只验证流程、状态与护栏，**不证明真实模型的决策质量**；真实效果需用真实模型运行 `examples/` 用例。
-- **无 Key 自动回退**：未配置 `ANTHROPIC_API_KEY` / `ANTHROPIC_AUTH_TOKEN` 时，程序打印警告并自动切换到 Mock，评审无需任何 Key 即可运行。
+- **无 Key 自动回退**：未配置 `ANTHROPIC_API_KEY` / `ANTHROPIC_AUTH_TOKEN` 时，程序打印警告并自动切换到 Mock，评审无需任何 Key 即可运行；作者的 Key 不会随仓库提供。
 - **离线向量（默认）**：无 Embedding Key 时加载仓库内 `data/offline_embeddings.json`（火山方舟预计算的 42 条文档/问题向量）；新查询用字符相似度映射到最接近的问题样例并复用其向量，映射失败时回退 BM25. 不下载模型、不调用 API、不需要 GPU。
 - CLI：`--mock` 或 `LLM_PROVIDER=mock`；`EMBEDDING_PROVIDER=offline|none` 控制离线向量/纯关键词。
 
@@ -662,7 +674,10 @@ cd /root/agent-qa
 ### 6.3 `.env.example`
 
 ```dotenv
-# 真实模型模式必填；Mock 模式可留空
+# 两种模式：
+# 1) 离线 Mock（默认）：无需任何变量；MockLLM + data/offline_embeddings.json
+# 2) API 模式：使用你自己的 ANTHROPIC_API_KEY（对话）与 EMBEDDING_API_KEY（在线向量）
+# 仓库不包含、也不会长期提供作者的 Key。
 ANTHROPIC_API_KEY=your_api_key_here
 # 官方 Anthropic 端点留空；兼容端点可指向对应服务
 # ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
