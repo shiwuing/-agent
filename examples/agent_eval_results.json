@@ -1,0 +1,1888 @@
+{
+  "summary": {
+    "total": 50,
+    "status_accuracy": 0.96,
+    "daily_total": 20,
+    "daily_grounded": 20,
+    "daily_grounded_rate": 1.0,
+    "daily_violations": [],
+    "kb_total": 30,
+    "kb_status_accuracy": 0.9333333333333333,
+    "section_cases": 19,
+    "section_cited_accuracy": 0.9473684210526315,
+    "section_retrieval_recall": 1.0
+  },
+  "results": [
+    {
+      "id": "daily-01",
+      "category": "daily",
+      "question": "番茄炒蛋怎么做？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "检索「番茄炒蛋怎么做」在知识库中未命中任何文档片段。企业知识库覆盖的是公司制度/业务流程类内容，本问题属于烹饪菜谱，超出知识库范围；缺少菜谱类资料（食材清单、步骤说明等）。无法给出有引用支持的答案，故不编造。"
+      ],
+      "steps": 2,
+      "tool_calls": 1,
+      "trace": "examples/traces_agent_eval_real/daily-01.jsonl"
+    },
+    {
+      "id": "daily-02",
+      "category": "daily",
+      "question": "怎么煮米饭？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "已用「煮米饭」「米饭 烹饪 方法 食堂」等关键词两次检索知识库，均未命中任何文档片段。该问题属于烹饪/生活类内容，超出本企业知识库覆盖范围；知识库中缺少煮米饭的操作方法、配比或流程说明，无法给出有引用支持的结论。"
+      ],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/daily-02.jsonl"
+    },
+    {
+      "id": "daily-03",
+      "category": "daily",
+      "question": "猫为什么喜欢钻纸箱？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "该问题属于宠物行为类的常识性问题，超出企业知识库范围。已用「猫为什么喜欢钻纸箱」「猫 纸箱 行为 宠物」两次检索，均未命中任何文档片段，知识库中没有可引用的依据，因此无法给出有引用的回答。缺少的是知识库中关于猫行为/宠物相关的任何文档内容；如需了解公司内部制度、流程或产品相关信息，可另行提问。"
+      ],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/daily-03.jsonl"
+    },
+    {
+      "id": "daily-04",
+      "category": "daily",
+      "question": "如何快速入睡？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库中未检索到与「如何快速入睡」相关的任何文档片段（先后以「如何快速入睡」「睡眠 健康 生活建议」检索均为 0 命中）。该问题属于个人健康/生活建议类咨询，超出企业知识库的覆盖范围；知识库中缺少睡眠健康方面的资料，无法给出有引用支持的回答。如需，我可改为检索工作相关主题（如作息考勤、工作安排等）相关内容。"
+      ],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/daily-04.jsonl"
+    },
+    {
+      "id": "daily-05",
+      "category": "daily",
+      "question": "怎么挑选西瓜？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库检索「挑选西瓜」「西瓜」均未命中任何文档片段，知识库中没有与如何挑选西瓜相关的内容，该问题超出知识库覆盖范围，无法给出有引用支持的结论。"
+      ],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/daily-05.jsonl"
+    },
+    {
+      "id": "daily-06",
+      "category": "daily",
+      "question": "电饭煲怎么清洁？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "已用「电饭煲 清洁 保养 方法」「电饭煲」「清洁」「产品说明书 使用 维护」等多组关键词检索知识库，均未命中任何文档片段，说明知识库中没有电饭煲清洁相关的产品说明书或操作指引内容。无法给出有引用支撑的清洁步骤，故报告信息不足（缺少电饭煲使用/保养类文档）。"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/daily-06.jsonl"
+    },
+    {
+      "id": "daily-07",
+      "category": "daily",
+      "question": "跑步前要热身多久？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D05-1"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid",
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库中未找到任何关于跑步或运动前热身时长/流程的内容。已用「跑步前热身多久」及「热身 运动 健身 跑步 训练」两次检索：前者仅命中 D05《员工手册（节选）》D05-1「年假」条款（无关内容），后者未命中任何片段。缺少的是：运动/健身类指导文档中关于热身时长与方式的规定。因此无法给出有引用支持的结论。"
+      ],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/daily-07.jsonl"
+    },
+    {
+      "id": "daily-08",
+      "category": "daily",
+      "question": "咖啡喝多了会怎样？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D01-1",
+        "D05-1"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword",
+        "hybrid"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "已用「咖啡喝多了会怎样」「咖啡因/健康影响」「咖啡 饮品」等多个关键词检索知识库，均未命中任何相关文档片段；进一步检索「健康 饮食 员工健康管理」仅返回财务报销制度总则和员工手册年假条目，与咖啡摄入的健康影响无关。知识库为企业管理制度类文档，未覆盖咖啡/咖啡因对健康影响的内容，无法给出有引用支持的结论。建议通过医学专业渠道或公司健康管理部门另行咨询。"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/daily-08.jsonl"
+    },
+    {
+      "id": "daily-09",
+      "category": "daily",
+      "question": "洗衣机怎么除味？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库中未检索到任何与洗衣机除味相关的文档片段。已尝试三次检索（\"洗衣机 除味 清洁\"、\"洗衣机 异味 清洗 保养\"、\"洗衣机\"），均未命中任何文档，因此缺少洗衣机清洁除味的操作规范/指引类资料，无法给出有引用支持的结论。该问题属于家庭生活类事项，超出企业知识库覆盖范围。"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_real/daily-09.jsonl"
+    },
+    {
+      "id": "daily-10",
+      "category": "daily",
+      "question": "怎样养绿萝？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "检索「怎样养绿萝」在知识库中未命中任何文档片段。该问题属于植物养护类生活常识，超出企业知识库覆盖范围（知识库为企业制度/业务类文档）。知识库中缺少绿萝等植物养护相关的任何资料，因此无法给出有引用支持的答案，也不会引入外部养护标准或数值。"
+      ],
+      "steps": 2,
+      "tool_calls": 1,
+      "trace": "examples/traces_agent_eval_real/daily-10.jsonl"
+    },
+    {
+      "id": "daily-11",
+      "category": "daily",
+      "question": "冬天室内适合多少度？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D05-1"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid",
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库中没有关于「冬天室内适宜温度」（如空调/供暖温度设定、节能温度要求）的内容。两次检索分别为：①命中 1 条片段，但内容为员工手册中的年假规定（D05-1「年假」：员工入职满一年后享有 5 天带薪年假），与室内温度无关；②检索「室内温度 空调 供暖 适宜温度 冬季节能」未命中任何文档片段。因此缺少可支撑结论的资料，无法给出温度数值或建议，也不能引用外部标准或记忆中的数字。"
+      ],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/daily-11.jsonl"
+    },
+    {
+      "id": "daily-12",
+      "category": "daily",
+      "question": "怎么去除衣服上的油渍？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "已用四组不同检索词（\"衣服油渍 清洗 去除\"、\"油渍 清洁 去污 方法\"、\"衣物 洗涤 清洁 污渍 处理\"、\"清洁\"）检索知识库，均未命中任何文档片段，知识库中没有关于衣物油渍去除方法的资料。该问题属于生活常识类内容，超出企业知识库覆盖范围，无法基于知识库给出有引用支持的答案，缺少\"衣物/织物清洁或污渍处理\"相关文档。"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/daily-12.jsonl"
+    },
+    {
+      "id": "daily-13",
+      "category": "daily",
+      "question": "手机内存不够怎么办？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D05-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid",
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库未覆盖该问题。两次检索均未得到相关内容：以「手机内存不够怎么办」检索仅命中《员工手册（节选）》中关于年假跨年结转的片段（D05-2），与手机存储无关；以「手机 存储空间 清理 设备管理」检索无任何命中。知识库中缺少关于手机设备存储空间清理、设备管理或 IT 支持申请流程的文档，无法给出有引用支持的结论与操作建议。如需继续，请补充相关制度或说明该问题是否属于公司 IT 支持事项。"
+      ],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/daily-13.jsonl"
+    },
+    {
+      "id": "daily-14",
+      "category": "daily",
+      "question": "高铁上能带充电宝吗？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库中未检索到任何与「充电宝」「电池」「乘车携带物品/违禁品」相关的文档片段（先后用「高铁 携带 充电宝 规定」「充电宝 电池 携带 乘车 安全」「充电宝」三次检索均为零命中）。因此无法基于知识库确认高铁携带充电宝的规定。缺少的资料是：涉及铁路/高铁乘车携带物品（含充电宝等锂电池设备）限带规定的内部制度或说明文件。该问题超出当前知识库覆盖范围，不作推测。"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_real/daily-14.jsonl"
+    },
+    {
+      "id": "daily-15",
+      "category": "daily",
+      "question": "北京到上海的高铁要多久？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D03-1",
+        "D03-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword",
+        "hybrid"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库中未检索到任何关于「北京到上海」高铁时长或列车运行时刻的信息。两次检索（「北京到上海 高铁 时长」未命中任何片段；「差旅 出行 火车 行程时间」仅命中《差旅报销说明》(D03) 的报销时限与材料清单两个分节，内容为「差旅报销应在行程结束后 15 天内提交」「差旅报销需提交行程单、发票和审批单」，与列车时长无关）。该问题超出企业知识库覆盖范围，缺少具体的车次/线路时刻资料，无法给出有引用支持的结论。"
+      ],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/daily-15.jsonl"
+    },
+    {
+      "id": "daily-16",
+      "category": "daily",
+      "question": "感冒了应该吃什么药？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "已用「感冒 用药 建议」检索知识库，未命中任何文档片段。知识库为企业规章制度/业务文档，未收录疾病诊疗或用药指导内容；用药建议属于医疗专业问题，超出知识库覆盖范围，缺少可引用的文档依据，不能给出结论。"
+      ],
+      "steps": 2,
+      "tool_calls": 1,
+      "trace": "examples/traces_agent_eval_real/daily-16.jsonl"
+    },
+    {
+      "id": "daily-17",
+      "category": "daily",
+      "question": "人民币兑美元汇率是多少？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D05-1"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库检索未覆盖该问题：以「人民币兑美元汇率」检索仅命中《员工手册（节选）》中年假条款（D05-1：「员工入职满一年后享有 5 天带薪年假。」），与汇率无关。知识库中没有提供汇率数据或汇率查询渠道的文档，且汇率属实时变动数据，无法从现有资料中给出有引用支持的数值。缺少的信息是：知识库中关于人民币兑美元汇率的权威数据来源或指定查询渠道。"
+      ],
+      "steps": 2,
+      "tool_calls": 1,
+      "trace": "examples/traces_agent_eval_real/daily-17.jsonl"
+    },
+    {
+      "id": "daily-18",
+      "category": "daily",
+      "question": "最近有什么好看的电影？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D04-1"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "keyword",
+        "hybrid"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "该问题属于影视娱乐推荐，超出企业知识库覆盖范围。已检索「最近有什么好看的电影」及扩展词「电影 影视 娱乐 推荐」，均未命中相关文档（唯一命中为 D04《云剪辑产品 FAQ》中关于导出格式的片段，与电影推荐无关）。知识库中缺少影片信息、上映时间、评分或推荐清单等资料，无法给出有引用支持的回答。"
+      ],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/daily-18.jsonl"
+    },
+    {
+      "id": "daily-19",
+      "category": "daily",
+      "question": "今天天气怎么样？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D05-1"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "该问题属于实时天气查询，超出企业知识库覆盖范围。检索仅命中无关片段（D05《员工手册（节选）》年假条款：「员工入职满一年后享有 5 天带薪年假。」），知识库中不含任何天气数据或气象信息来源，无法给出来自知识库的回答。缺少的信息为：知识库内的天气数据来源（如气象服务接口或天气类文档）。"
+      ],
+      "steps": 2,
+      "tool_calls": 1,
+      "trace": "examples/traces_agent_eval_real/daily-19.jsonl"
+    },
+    {
+      "id": "daily-20",
+      "category": "daily",
+      "question": "明天是星期几？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D05-1"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": true,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库中没有关于当前日期或星期的信息。唯一命中的 D05《员工手册（节选）》仅涉及年假天数的规定，与「明天是星期几」无关，无法支持任何结论。缺少的信息是：可用于推算当前日期的日历或系统时间信息，以及与该问题相关的知识库文档。"
+      ],
+      "steps": 2,
+      "tool_calls": 1,
+      "trace": "examples/traces_agent_eval_real/daily-20.jsonl"
+    },
+    {
+      "id": "kb-01",
+      "category": "kb",
+      "question": "云剪辑支持导出哪些格式？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D04-1",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D04-1"
+      ],
+      "retrieved_sections": [
+        "D04-1",
+        "D04-2"
+      ],
+      "read_sections": [
+        "D04-1"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据《云剪辑产品 FAQ》的「导出格式」一节，云剪辑支持导出 MP4、MOV 等常见视频格式。知识库中未列出更完整的格式清单，如需确认特定的其他格式，建议向产品团队核实。",
+      "citations": [
+        {
+          "doc_id": "D04",
+          "section_id": "D04-1",
+          "quote": "云剪辑支持导出 MP4、MOV 等常见视频格式。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/kb-01.jsonl"
+    },
+    {
+      "id": "kb-02",
+      "category": "kb",
+      "question": "云剪辑能自动生成字幕吗？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D04-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D04-2"
+      ],
+      "retrieved_sections": [
+        "D04-1",
+        "D04-2"
+      ],
+      "read_sections": [
+        "D04-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "可以。云剪辑支持自动生成字幕，并且生成后还支持手动编辑。",
+      "citations": [
+        {
+          "doc_id": "D04",
+          "section_id": "D04-2",
+          "quote": "云剪辑支持自动生成字幕，并支持手动编辑。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/kb-02.jsonl"
+    },
+    {
+      "id": "kb-03",
+      "category": "kb",
+      "question": "差旅报销需要哪些材料？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D03-1",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D03-1",
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2"
+      ],
+      "read_sections": [
+        "D03-1"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "差旅报销需提交的材料为：**行程单、发票和审批单**（共 3 项）。\n\n依据说明：该结论来自《差旅报销说明》，其文档声明适用范围为「差旅」，与本问题范围一致，故直接采用；检索到的其他文档（《财务报销管理制度》《费用报销常见问题》）未就材料清单作出规定，不存在冲突。\n\n补充提示（非本问题直接要求）：差旅报销应在行程结束后 15 天内提交（D03-2）。",
+      "citations": [
+        {
+          "doc_id": "D03",
+          "section_id": "D03-1",
+          "quote": "差旅报销需提交行程单、发票和审批单。"
+        },
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/kb-03.jsonl"
+    },
+    {
+      "id": "kb-04",
+      "category": "kb",
+      "question": "员工入职满一年有几天年假？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D05-1",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D05-1",
+        "D05-2"
+      ],
+      "retrieved_sections": [
+        "D01-2",
+        "D02-1",
+        "D02-2",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据《员工手册（节选）》规定：员工入职满一年后享有 5 天带薪年假。此外，年假原则上不跨年结转，确因工作需要可申请延期一次。知识库中未检索到其他规定年假天数的文档，因此以该条为准。",
+      "citations": [
+        {
+          "doc_id": "D05",
+          "section_id": "D05-1",
+          "quote": "员工入职满一年后享有 5 天带薪年假。"
+        },
+        {
+          "doc_id": "D05",
+          "section_id": "D05-2",
+          "quote": "年假原则上不跨年结转，确因工作需要可申请延期一次。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/kb-04.jsonl"
+    },
+    {
+      "id": "kb-05",
+      "category": "kb",
+      "question": "年假可以跨年结转吗？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D05-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D05-2",
+        "D05-1"
+      ],
+      "retrieved_sections": [
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [
+        "D05-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "可以，但有条件。按《员工手册（节选）》的「跨年规则」：年假原则上不跨年结转，确因工作需要可申请延期一次，即可延期一次、不无限期顺延。\n\n补充：手册同时规定「员工入职满一年后享有 5 天带薪年假」（D05-1），可与上述结转规则一并参考。知识库中未检索到其他关于年假结转的专门制度或例外规定；如需确认延期的具体申请流程与审批人，知识库未覆盖。",
+      "citations": [
+        {
+          "doc_id": "D05",
+          "section_id": "D05-2",
+          "quote": "年假原则上不跨年结转，确因工作需要可申请延期一次。"
+        },
+        {
+          "doc_id": "D05",
+          "section_id": "D05-1",
+          "quote": "员工入职满一年后享有 5 天带薪年假。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/kb-05.jsonl"
+    },
+    {
+      "id": "kb-06",
+      "category": "kb",
+      "question": "财务审批一般要多久？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D02-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D02-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据知识库《费用报销常见问题》中的说明，财务审批一般需要 5 个工作日。知识库中未检索到其他给出不同审批时长的规定，因此以该条为准。若你需要的是「提交报销申请的时限」（如费用发生后多少天内提交），那是另一个问题，相关规定另有表述，可再行确认。",
+      "citations": [
+        {
+          "doc_id": "D02",
+          "section_id": "D02-2",
+          "quote": "财务审批一般需要 5 个工作日。"
+        }
+      ],
+      "gaps": [],
+      "steps": 2,
+      "tool_calls": 1,
+      "trace": "examples/traces_agent_eval_real/kb-06.jsonl"
+    },
+    {
+      "id": "kb-07",
+      "category": "kb",
+      "question": "报销申请需要经过谁审批？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D01-3",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D01-3",
+        "D03-1",
+        "D02-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-3"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "报销申请的审批路径为：先由**部门负责人审批**，通过后再提交**财务部门复核**。\n\n即两步：\n1. 部门负责人审批；\n2. 财务部门复核（依据 D02 的说明，财务审批一般需 5 个工作日）。\n\n补充说明：若属差旅报销，还须在材料中提交「审批单」（行程单、发票、审批单），但知识库未进一步说明差旅报销是否存在额外的审批层级或按金额分级的审批权限规定，此部分无资料支撑。",
+      "citations": [
+        {
+          "doc_id": "D01",
+          "section_id": "D01-3",
+          "quote": "报销申请经部门负责人审批后提交财务部门复核。"
+        },
+        {
+          "doc_id": "D03",
+          "section_id": "D03-1",
+          "quote": "差旅报销需提交行程单、发票和审批单。"
+        },
+        {
+          "doc_id": "D02",
+          "section_id": "D02-2",
+          "quote": "财务审批一般需要 5 个工作日。"
+        }
+      ],
+      "gaps": [],
+      "steps": 6,
+      "tool_calls": 5,
+      "trace": "examples/traces_agent_eval_real/kb-07.jsonl"
+    },
+    {
+      "id": "kb-08",
+      "category": "kb",
+      "question": "公司的报销制度适用于哪些费用？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D01-1",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D01-1",
+        "D03-1"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据知识库，报销制度的适用范围只有一条明确表述：**本制度适用于员工因公发生的费用报销**（D01《财务报销管理制度》·总则）。即适用范围以「因公」为界，制度本身并未限定具体的费用类别。\n\n补充说明：\n1. D01 全文只有总则、报销时限（费用发生之日起 30 天内提交）、报销流程（部门负责人审批后交财务复核）三节，**没有列举可报销或不可报销的具体费用类型清单**（如交通费、住宿费、餐费、招待费等），因此无法据此逐一列出适用费用项目。\n2. 知识库中另有一份带 scope=「差旅」的专门文档 D03《差旅报销说明》，其中要求「差旅报销需提交行程单、发票和审批单」，说明差旅费用属于可报销范围并有单独的材料要求；这是差旅场景下的具体要求，不构成对 D01 总则适用范围的修改。\n\n缺口：知识库缺少「具体可报销费用类型/项目清单」及「不予报销费用清单」。如需确认某一具体费用能否报销，需要补充该类费用对应的制度条款。",
+      "citations": [
+        {
+          "doc_id": "D01",
+          "section_id": "D01-1",
+          "quote": "本制度适用于员工因公发生的费用报销。"
+        },
+        {
+          "doc_id": "D03",
+          "section_id": "D03-1",
+          "quote": "差旅报销需提交行程单、发票和审批单。"
+        }
+      ],
+      "gaps": [],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/kb-08.jsonl"
+    },
+    {
+      "id": "kb-09",
+      "category": "kb",
+      "question": "差旅报销的提交时限是多久？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D03-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D03-2",
+        "D02-1",
+        "D01-2",
+        "D01-1"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "差旅报销的提交时限为：**行程结束后 15 天内提交**。\n\n依据 D03《差旅报销说明》（适用范围：差旅）「报销时限」节：差旅报销应在行程结束后 15 天内提交。注意起算点是「行程结束」之日，而非费用发生之日。\n\n补充说明（同一知识库中存在的差异，供参考）：\n- D02《费用报销常见问题》「报销期限」节同样写为「费用报销期限为 15 天」，与上述结论一致（但未限定为差旅，起算点也未明确）。\n- D01《财务报销管理制度》「报销时限」节写为「员工应在费用发生之日起 30 天内提交报销申请」。该文未声明限定性适用范围，其总则仅为「本制度适用于员工因公发生的费用报销」这类一般性表述，按其文档声明规则不足以覆盖专门的差旅规定，故差旅情形下以 D03 的 15 天为准。\n\n如你的报销事项并非因公出差（例如日常办公费用），则适用哪一规定需要另行确认，请告知具体费用类型。",
+      "citations": [
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        },
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        },
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        },
+        {
+          "doc_id": "D01",
+          "section_id": "D01-1",
+          "quote": "本制度适用于员工因公发生的费用报销。"
+        }
+      ],
+      "gaps": [],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/kb-09.jsonl"
+    },
+    {
+      "id": "kb-10",
+      "category": "kb",
+      "question": "云剪辑的字幕可以手动编辑吗？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D04-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D04-2"
+      ],
+      "retrieved_sections": [
+        "D04-1",
+        "D04-2"
+      ],
+      "read_sections": [
+        "D04-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "可以。云剪辑支持自动生成字幕，并且支持手动编辑字幕。该结论来自产品范围（scope：产品）的《云剪辑产品 FAQ》字幕功能分节，与你所问的「云剪辑」产品范围一致，检索中也未发现与之冲突的其他说明。",
+      "citations": [
+        {
+          "doc_id": "D04",
+          "section_id": "D04-2",
+          "quote": "云剪辑支持自动生成字幕，并支持手动编辑。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/kb-10.jsonl"
+    },
+    {
+      "id": "kb-11",
+      "category": "kb",
+      "question": "年假延期最多可以申请几次？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D05-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D05-2"
+      ],
+      "retrieved_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [
+        "D05-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据员工手册的跨年规则，年假原则上不跨年结转；确因工作需要可以申请延期，且最多只能申请一次（即延期一次）。知识库中仅员工手册（D05）涉及年假延期次数，未发现其他冲突规定。",
+      "citations": [
+        {
+          "doc_id": "D05",
+          "section_id": "D05-2",
+          "quote": "年假原则上不跨年结转，确因工作需要可申请延期一次。"
+        }
+      ],
+      "gaps": [],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_real/kb-11.jsonl"
+    },
+    {
+      "id": "kb-12",
+      "category": "kb",
+      "question": "报销流程中财务部门负责什么？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D01-3",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D01-3",
+        "D02-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2"
+      ],
+      "read_sections": [
+        "D01-3"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据知识库，报销流程中财务部门的职责为「复核」：报销申请需先经部门负责人审批，之后再提交财务部门复核。此外，知识库提到财务审批一般需要 5 个工作日，可作为财务环节耗时的参考。\n\n说明：知识库仅覆盖到「复核」这一环节，未明确说明财务部门是否承担单据合规性审查、付款执行、账务处理等其他职责；如需这些细节，知识库暂无对应依据。",
+      "citations": [
+        {
+          "doc_id": "D01",
+          "section_id": "D01-3",
+          "quote": "报销申请经部门负责人审批后提交财务部门复核。"
+        },
+        {
+          "doc_id": "D02",
+          "section_id": "D02-2",
+          "quote": "财务审批一般需要 5 个工作日。"
+        }
+      ],
+      "gaps": [],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_real/kb-12.jsonl"
+    },
+    {
+      "id": "kb-13",
+      "category": "kb",
+      "question": "差旅报销的起算时间是什么？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D03-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D03-2",
+        "D01-2",
+        "D02-1"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "差旅报销的起算时间是**行程结束之日**：知识库中《差旅报销说明》（scope 明确为「差旅」，正好覆盖本问题）规定「差旅报销应在行程结束后 15 天内提交」，即以行程结束作为计时起点，15 天内提交。\n\n说明：知识库中另有两条一般性规定与上述表述不一致——《财务报销管理制度》为「员工应在费用发生之日起 30 天内提交报销申请」，《费用报销常见问题》为「费用报销期限为 15 天」。这两份文档均未声明限定适用范围（scope 为空），而《差旅报销说明》明确适用于差旅场景，且本问题正是「差旅报销」，因此按适用范围就高采用《差旅报销说明》的「行程结束后」作为起算时间。若你的实际情形不属于差旅报销（或其他报销类型），请另行确认。",
+      "citations": [
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        },
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        },
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        }
+      ],
+      "gaps": [],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/kb-13.jsonl"
+    },
+    {
+      "id": "kb-14",
+      "category": "kb",
+      "question": "按 D01，费用发生日到提交申请最长多少天？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D01-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D01-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D03-2"
+      ],
+      "read_sections": [
+        "D01-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "按 D01《财务报销管理制度》，员工应在费用发生之日起 30 天内提交报销申请。因此，费用发生日到提交申请的最长时限为 30 天（D01-2「报销时限」）。\n\n说明：知识库中另有 D02《费用报销常见问题》提到\"费用报销期限为 15 天\"，但本问题已明确限定按 D01 回答，故以上结论仅依据 D01；若需确认通用口径适用哪一份文档，请另行明确。",
+      "citations": [
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/kb-14.jsonl"
+    },
+    {
+      "id": "kb-15",
+      "category": "kb",
+      "question": "视频能导出成什么格式？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D04-1",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D04-1"
+      ],
+      "retrieved_sections": [
+        "D04-1",
+        "D04-2"
+      ],
+      "read_sections": [
+        "D04-1"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "根据《云剪辑产品 FAQ》的「导出格式」一节，云剪辑支持导出 MP4、MOV 等常见视频格式。（文档 D04 / 分节 D04-1）",
+      "citations": [
+        {
+          "doc_id": "D04",
+          "section_id": "D04-1",
+          "quote": "云剪辑支持导出 MP4、MOV 等常见视频格式。"
+        }
+      ],
+      "gaps": [],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/kb-15.jsonl"
+    },
+    {
+      "id": "kb-16",
+      "category": "kb",
+      "question": "差旅费用的报销期限是多久？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D03-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D03-2",
+        "D02-1",
+        "D01-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "差旅费用的报销期限为 **行程结束后 15 天内**。\n\n依据与冲突处理说明：\n- 《差旅报销说明》(D03) 明确限定适用范围为「差旅」，其「报销时限」一节规定：“差旅报销应在行程结束后 15 天内提交。”——用户问题明确属于差旅场景，故按该文档执行。\n- 《费用报销常见问题》(D02) 的表述与之数值一致：“费用报销期限为 15 天，请及时提交。”\n- 《财务报销管理制度》(D01) 规定“员工应在费用发生之日起 30 天内提交报销申请”，但该文档未声明限定适用范围，仅属一般性规定；按冲突处理顺序，差旅场景下发文范围明确覆盖该场景的 D03 优先适用。\n\n提示：D01 与 D03 的起算点也不同（D01 为「费用发生之日起」，D03 为「行程结束后」）。差旅费用请按 D03 的起算点（行程结束日）计算 15 天。",
+      "citations": [
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        },
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        },
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        }
+      ],
+      "gaps": [],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/kb-16.jsonl"
+    },
+    {
+      "id": "kb-17",
+      "category": "kb",
+      "question": "报销期限是多久？",
+      "expected_status": "NEED_CONFIRMATION",
+      "actual_status": "NEED_CONFIRMATION",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "关于「报销期限」，知识库中存在互相冲突的说法：D01《财务报销管理制度》为「费用发生之日起 30 天内」，D02《费用报销常见问题》为「15 天」，D03《差旅报销说明》仅适用于差旅场景（行程结束后 15 天内）。由于您的提问未限定是否为差旅报销，且 D01 总则中「适用于员工因公发生的费用报销」不构成范围限定，D02/D03 也均未声明优先级或版本裁决规则，无法据此自行选择。请确认：您问的是差旅报销，还是除差旅外的其他费用报销？",
+      "citations": [
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        },
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        },
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [
+        "知识库未声明各文档的优先级或版本适用规则",
+        "用户问题未指明费用类型（是否差旅），无法判断是否落入 D03 的差旅适用范围"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/kb-17.jsonl"
+    },
+    {
+      "id": "kb-18",
+      "category": "kb",
+      "question": "费用报销最晚多久内提交？",
+      "expected_status": "NEED_CONFIRMATION",
+      "actual_status": "NEED_CONFIRMATION",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "关于「费用报销最晚多久内提交」，知识库中两份通用文档给出了不同时限，无法据此给出唯一结论：D01《财务报销管理制度》规定「员工应在费用发生之日起 30 天内提交报销申请」；D02《费用报销常见问题》规定「费用报销期限为 15 天，请及时提交」。两份文档均未声明限定性适用范围（scope）或优先级/版本适用规则，因此按规则需请您确认。\n\n补充说明：若您的费用属于差旅报销，知识库中有明确适用范围（scope=差旅）的文档 D03《差旅报销说明》规定「差旅报销应在行程结束后 15 天内提交」，该条可直接适用。\n\n请确认：\n1) 您的报销是否为差旅费用？若是，按 D03 的 15 天（自行程结束起算）执行。\n2) 若非差旅的普通因公费用，请确认以 D01 的 30 天还是 D02 的 15 天为准（或告知是否有未纳入知识库的最新规定）。",
+      "citations": [
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        },
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        },
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [
+        "知识库未声明 D01 与 D02 之间的优先级或版本适用规则，无法判定通用报销期限以哪份为准",
+        "未确认用户报销是否属于差旅类（差旅类可适用 D03 的 15 天规则）"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/kb-18.jsonl"
+    },
+    {
+      "id": "kb-19",
+      "category": "kb",
+      "question": "员工自己垫的钱最晚多久能拿回来？",
+      "expected_status": "NEED_CONFIRMATION",
+      "actual_status": "INCOMPLETE",
+      "status_ok": false,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [],
+      "read_sections": [],
+      "retrieval_modes": [],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "模型未返回工具调用：我会先在知识库中检索报销时限。"
+      ],
+      "steps": 1,
+      "tool_calls": 0,
+      "trace": "examples/traces_agent_eval_real/kb-19.jsonl"
+    },
+    {
+      "id": "kb-20",
+      "category": "kb",
+      "question": "一般费用报销多少天内要提交？",
+      "expected_status": "NEED_CONFIRMATION",
+      "actual_status": "NEED_CONFIRMATION",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [
+        "D02-1",
+        "D01-2",
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "关于「一般费用报销多少天内提交」，知识库中存在两处无适用范围的直接冲突，均为一般费用报销时限，且没有任何优先级或版本裁决规则：\\n\\n- 《费用报销常见问题》(D02，2025-06-01，报销期限)：费用报销期限为 15 天，请及时提交。\\n- 《财务报销管理制度》(D01，2024-01-01，报销时限)：员工应在费用发生之日起 30 天内提交报销申请。\\n\\n另外《差旅报销说明》(D03，scope=差旅) 规定「差旅报销应在行程结束后 15 天内提交」，但其适用范围限定为差旅，不适用于您所问的一般费用报销，故不作为答案依据。\\n\\n请确认：一般费用报销应适用哪一个时限——15 天还是 30 天？（若您问的是差旅费用报销，请说明，我可按 D03 的 15 天答复。）",
+      "citations": [
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        },
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        },
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [
+        "知识库未声明 D01 与 D02 的优先级或版本适用规则",
+        "缺少对「一般费用报销」与「差旅报销」适用范围划分的明确说明"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/kb-20.jsonl"
+    },
+    {
+      "id": "kb-21",
+      "category": "kb",
+      "question": "报销时间有规定吗？",
+      "expected_status": "NEED_CONFIRMATION",
+      "actual_status": "NEED_CONFIRMATION",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "关于「报销时间」的规定，知识库中存在两处不一致，且两者都没有声明限定适用范围或优先级，我无法替你裁决。请确认你的问题属于哪类报销，以便给出准确结论：\n\n1. 若为**一般费用报销**：《财务报销管理制度》（D01）规定「员工应在费用发生之日起 30 天内提交报销申请」；《费用报销常见问题》（D02）规定「费用报销期限为 15 天，请及时提交」。两份文件的报销期限分别为 30 天与 15 天，均未声明 scope（适用范围）或优先级，版本日期差异不足以判定优先级。\n2. 若为**差旅报销**：《差旅报销说明》（D03，scope=差旅）规定「差旅报销应在行程结束后 15 天内提交」，可以按此执行。\n\n请告知：你需要的是差旅报销的时限，还是非差旅（一般）费用报销的时限？如果是后者，请确认以 30 天还是 15 天为准，或指明适用的制度文件。",
+      "citations": [
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        },
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        },
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        }
+      ],
+      "gaps": [
+        "缺少关于 D01 与 D02 之间效力关系（优先级/适用范围的说明）的规定",
+        "用户未说明报销类型（是否差旅），也未说明费用发生日或行程结束日，无法定位适用条款"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/kb-21.jsonl"
+    },
+    {
+      "id": "kb-22",
+      "category": "kb",
+      "question": "那期限呢？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D03-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D03-2",
+        "D02-1",
+        "D01-2",
+        "D01-1"
+      ],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [
+        "D02-1",
+        "D03-2"
+      ],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "差旅报销的期限：**应在行程结束后 15 天内提交**。\n\n依据说明：知识库中关于\"报销期限\"存在三种不同表述：\n- 《差旅报销说明》报销时限：差旅报销应在行程结束后 15 天内提交（适用范围明确为「差旅」）；\n- 《费用报销常见问题》报销期限：费用报销期限为 15 天（未声明适用范围）；\n- 《财务报销管理制度》报销时限：员工应在费用发生之日起 30 天内提交报销申请（未声明适用范围）。\n\n由于您问的是差旅报销，该问题明确落入《差旅报销说明》声明的「差旅」适用范围，按适用范围优先原则应采用该文档结论，即以**行程结束之日起 15 天**为起算点和期限。\n\n提示：若涉及非差旅的普通费用报销，知识库中未声明适用范围的文档之间仍存在 15 天与 30 天的表述差异，需另行向财务确认。",
+      "citations": [
+        {
+          "doc_id": "D03",
+          "section_id": "D03-2",
+          "quote": "差旅报销应在行程结束后 15 天内提交。"
+        },
+        {
+          "doc_id": "D02",
+          "section_id": "D02-1",
+          "quote": "费用报销期限为 15 天，请及时提交。"
+        },
+        {
+          "doc_id": "D01",
+          "section_id": "D01-2",
+          "quote": "员工应在费用发生之日起 30 天内提交报销申请。"
+        },
+        {
+          "doc_id": "D01",
+          "section_id": "D01-1",
+          "quote": "本制度适用于员工因公发生的费用报销。"
+        }
+      ],
+      "gaps": [],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/kb-22.jsonl"
+    },
+    {
+      "id": "kb-23",
+      "category": "kb",
+      "question": "那字幕呢？",
+      "expected_status": "ANSWERED",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": false,
+      "expected_section": "D04-2",
+      "section_cited": false,
+      "section_retrieved": true,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D04-1",
+        "D04-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "承接上文的「导出格式」，用户问的「字幕呢？」应是问字幕能否导出/字幕有哪些导出格式。知识库中唯一涉及字幕的内容是 D04《云剪辑产品 FAQ》D04-2「字幕功能」：「云剪辑支持自动生成字幕，并支持手动编辑。」——只说明了字幕生成与编辑能力，未说明字幕（如字幕文件/字幕轨）能否随视频一起导出、支持哪些字幕格式。已对 D04 全文及「云剪辑 字幕 导出」检索（仅命中 D04-1、D04-2 两节），知识库不存在字幕导出相关的其他文档或分节。因此字幕导出格式这一问题无法确认，需补充相应产品文档。若用户只想问字幕功能是否支持，则依据 D04-2 可确认支持自动生成与手动编辑。"
+      ],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/kb-23.jsonl"
+    },
+    {
+      "id": "kb-24",
+      "category": "kb",
+      "question": "那没休完怎么办？",
+      "expected_status": "ANSWERED",
+      "actual_status": "ANSWERED",
+      "status_ok": true,
+      "expected_section": "D05-2",
+      "section_cited": true,
+      "section_retrieved": true,
+      "cited_sections": [
+        "D05-2"
+      ],
+      "retrieved_sections": [
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "关于未休完年假的处理，知识库中唯一相关规定见《员工手册（节选）》第 D05-2 节「跨年规则」：年假原则上不跨年结转；但确因工作需要，可以申请延期一次（即以一次为限）。\n\n因此，若你年假未休完，处理方式是：\n1. 默认不会结转到下一年度；\n2. 如确因工作需要无法在当年休完，可提交延期申请，但只能申请一次。\n\n需要说明的资料缺口：知识库未涉及未休年假是否可以折现、作废清零的具体时点，或相应补偿标准，这些内容无法从现有资料确认，建议向人力资源部门咨询。",
+      "citations": [
+        {
+          "doc_id": "D05",
+          "section_id": "D05-2",
+          "quote": "年假原则上不跨年结转，确因工作需要可申请延期一次。"
+        }
+      ],
+      "gaps": [],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_real/kb-24.jsonl"
+    },
+    {
+      "id": "kb-25",
+      "category": "kb",
+      "question": "报销可以打到我老婆的卡上吗？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库共 3 份文档（D01 财务报销管理制度、D02 费用报销常见问题、D03 差旅报销说明），三次不同关键词检索返回的片段仅涉及报销审批流程（D01-3）、适用范围（D01-1）、报销时限（D01-2、D02-1、D03-2）与差旅材料清单（D03-1），没有涉及「报销款打款账户/收款人是否必须为员工本人、能否打入配偶等他人银行卡」的任何规定。缺口：知识库缺少报销款收款账户与收款人身份要求的相关条款，因此无法确认该做法是否被允许，建议向财务部门确认。"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_real/kb-25.jsonl"
+    },
+    {
+      "id": "kb-26",
+      "category": "kb",
+      "question": "食堂几点开饭？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D01-2",
+        "D02-1",
+        "D03-2",
+        "D05-1"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid",
+        "keyword"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库中未检索到任何关于食堂或就餐时间的文档。两次检索（「食堂开饭时间 就餐时间」「食堂 开饭时间 就餐 用餐 时间表」）返回的命中片段仅涉及财务报销时限与年假（D01、D02、D03、D05），与食堂开饭时间无关；第二次关键词检索无任何命中。缺少的内容为：公司食堂供餐时间表（早/中/晚餐开饭与结束时间）相关文档或制度条款。建议向行政/后勤部门确认或补充上传相关文档。"
+      ],
+      "steps": 3,
+      "tool_calls": 2,
+      "trace": "examples/traces_agent_eval_real/kb-26.jsonl"
+    },
+    {
+      "id": "kb-27",
+      "category": "kb",
+      "question": "年终奖什么时候发？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "知识库未覆盖「年终奖发放时间」：已用「年终奖 发放时间」「年终奖 奖金 薪酬 发放」「年终奖 发放」等关键词检索（共 3 次），命中片段全部为年假（D05-1/D05-2）、报销时限与流程（D01、D02、D03）等无关内容，未检索到任何涉及年终奖或奖金发放规则、发放时间的文档或章节。"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_real/kb-27.jsonl"
+    },
+    {
+      "id": "kb-28",
+      "category": "kb",
+      "question": "加班有加班费吗？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D03-1",
+        "D03-2",
+        "D05-1",
+        "D05-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "经三次不同检索（「加班 加班费 规定」「加班费 加班工资 加班时长 补偿」「加班 调休 工作时长 工资 薪酬」），知识库返回的片段仅涉及年假（D05-1、D05-2）、差旅报销（D03-1、D03-2）与费用报销制度（D01-1/D01-2/D01-3、D02-1），没有任何关于加班认定、加班费或调休补偿的条款。现有文档范围不足以支撑回答「加班是否有加班费」，故无法给出有引用支持的结论。建议补充薪酬福利制度、考勤与加班管理办法等文档后再行确认。"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_real/kb-28.jsonl"
+    },
+    {
+      "id": "kb-29",
+      "category": "kb",
+      "question": "云剪辑支持导出 4K 视频吗？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D04-1",
+        "D04-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "已检索并读取知识库中唯一相关文档《云剪辑产品 FAQ》(D04) 全文：其中「导出格式」一节（D04-1）仅说明「云剪辑支持导出 MP4、MOV 等常见视频格式」，「字幕功能」一节（D04-2）与分辨率无关。以「分辨率 / 4K / 导出设置 / 清晰度」等关键词二次检索仍只返回上述两个片段，无任何涉及导出分辨率上限、是否支持 4K 的条款。因此知识库未覆盖「云剪辑是否支持导出 4K 视频」，无法给出有引用支持的确定结论；缺口为：缺少云剪辑导出分辨率规格（支持的最高分辨率、4K 是否可用及所需权限/配置）的相关文档。"
+      ],
+      "steps": 4,
+      "tool_calls": 3,
+      "trace": "examples/traces_agent_eval_real/kb-29.jsonl"
+    },
+    {
+      "id": "kb-30",
+      "category": "kb",
+      "question": "报销发票丢了怎么办？",
+      "expected_status": "INSUFFICIENT_INFO",
+      "actual_status": "INSUFFICIENT_INFO",
+      "status_ok": true,
+      "expected_section": null,
+      "section_cited": null,
+      "section_retrieved": null,
+      "cited_sections": [],
+      "retrieved_sections": [
+        "D01-1",
+        "D01-2",
+        "D01-3",
+        "D02-1",
+        "D02-2",
+        "D03-1",
+        "D03-2",
+        "D05-2"
+      ],
+      "read_sections": [],
+      "retrieval_modes": [
+        "hybrid"
+      ],
+      "grounded": null,
+      "answer": "",
+      "citations": [],
+      "gaps": [
+        "已检索「报销发票丢失/遗失的处理办法」「原件、复印件、替代凭证」等相关主题，并读取了《费用报销常见问题》(D02) 全文。知识库现有文档仅涉及差旅报销材料清单（D03-1：需提交行程单、发票和审批单）、报销时限与审批流程，未包含发票丢失后的补办、替代凭证、责任处理等任何规定。故无法回答「报销发票丢了怎么办」，缺少的是：发票遗失后的处理流程/替代凭证要求/审批特批规定。"
+      ],
+      "steps": 5,
+      "tool_calls": 4,
+      "trace": "examples/traces_agent_eval_real/kb-30.jsonl"
+    }
+  ],
+  "elapsed_seconds": 381.5
+}
