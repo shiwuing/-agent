@@ -1,0 +1,9 @@
+{
+  "name": "retry_success",
+  "question": "云剪辑支持导出哪些格式？",
+  "history": [],
+  "provider": "anthropic",
+  "fail_tool": "search_docs",
+  "fail_times": 1,
+  "expected_status": "ANSWERED"
+}
