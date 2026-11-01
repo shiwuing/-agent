@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.idea/
+_ops/
+.DS_Store
+data/.embedding_cache.json
+data/faiss.index
+
+.pytest_cache/
+.tmp/
+.cache/
