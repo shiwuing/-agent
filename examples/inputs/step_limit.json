@@ -1,0 +1,8 @@
+{
+  "name": "step_limit",
+  "question": "报销期限是多久？",
+  "history": [],
+  "provider": "anthropic",
+  "max_steps": 1,
+  "expected_status": "INCOMPLETE"
+}
