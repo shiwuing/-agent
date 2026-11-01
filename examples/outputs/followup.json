@@ -1,0 +1,22 @@
+{
+  "run_id": "20261101T090041Z-32935c",
+  "question": "那期限呢？",
+  "merged_question": "差旅 报销 那期限呢？",
+  "status": "ANSWERED",
+  "answer": "根据 D03《差旅报销说明》D03-2：差旅报销应在行程结束后 15 天内提交。",
+  "citations": [
+    {
+      "doc_id": "D03",
+      "section_id": "D03-2",
+      "quote": "差旅报销应在行程结束后 15 天内提交。"
+    }
+  ],
+  "gaps": [],
+  "conflicts": [],
+  "provider": "mock",
+  "model": "mock-policy",
+  "retrieval_mode": "hybrid",
+  "steps": 5,
+  "tool_calls": 4,
+  "trace_file": "examples/traces/followup.jsonl"
+}
